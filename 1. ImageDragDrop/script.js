@@ -1,7 +1,7 @@
 const boxes = document.querySelectorAll(".box"),
     image = document.querySelector(".image");
 
-boxes.forEach((box, index) => {
+boxes.forEach((box) => {
     box.addEventListener("dragover", (e) => {
         e.preventDefault();
         box.classList.add("hovered");
